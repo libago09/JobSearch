@@ -1,0 +1,21 @@
+{
+  "name": "steadyfile",
+  "version": "1.0.0",
+  "description": "steadyFile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Steady",
+    "serverside"
+  ],
+  "author": "Tj Libago",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "traverse": "^0.6.6"
+  }
+}

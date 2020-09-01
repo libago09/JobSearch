@@ -1,0 +1,92 @@
+
+<html>
+    <head>
+        <title>Job Search</title>
+        <link rel="stylesheet" href="css/styleResult.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <body onload="slider()">
+        <div class="container" id="blur">
+            <div   id="myHeader">  
+                <div class="banner">
+                    <div class="slider">
+                        <img src="img/image.jpg" id="slideImg">
+                    </div>
+                    <div class="overlay" >
+                        <header>
+                            <h4>JOB SEARCH</h4>
+                            <nav>
+                                <ul class="nav_links">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="aboutUs.html">About Us</a></li>
+                                    <li><a href="contact.html">Contact Information</a></li>
+                                </ul>
+                            </nav>
+                        </header>
+                            <h1>Find a job anytime, anywhere</h1>
+                            <div class="form-box">
+                                <input type="text" class="search-field job" placeholder="Job Category" id="inputJob">
+                                <input type="text" class="search-field location" placeholder="Location" id="inputLocation">
+                                <button class="search-btn" type="button" onclick="clickToDisplayResults()">Search</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="content">
+                    <div class="box" id="boxOne">
+
+                        <p class= "xxx">EXAMPLE RESULTS</p>
+                        <p>EXAMPLE COMPANY</p>
+                        <a href="#" class="pull-right" onclick="toogle()">Read More</a>
+                    </div>
+                <div style="height:250px;"></div>
+
+
+                <div class="footer">
+                    <div class="inner-footer">
+                        <div class="footer-items">
+                            <h3>About Us</h3>
+                            <p>
+                                A job search engine web application that links comprehensive search results
+                                to jobs found on employer career portals, recruiter websites, job boards,
+                                and other employment sites all over the Internet.
+                            </p>
+                        </div>
+                        <div class="footer-items2">
+                            <h2>Quick Links</h2>
+                            <div class="border"></div>
+                            <ul>
+                                <a href="index.html"><li>Home</li></a>
+                                <a href="result.html"><li>Search</li></a>
+                                <a href="aboutUs.html"><li>About Us</li></a>
+                                <a href="contact.html"><li>Contact Information</li></a>
+
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-items2">
+                            <h2>Contact Us</h2>
+                            <div class="border"></div>
+                            <ul>
+                               <li><i class="fa fa-phone" aria-hidden="true"></i>098765432121</li>
+                               <li><i class="fa fa-envelope" aria-hidden="true"></i>Jobsearch@gmail.com</li>
+                            </ul>
+                            <div class="social-media">
+                                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+        <div id="popup">
+          
+
+           
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
